@@ -59,3 +59,10 @@ export const logout =()=>{
         type:'logout'
     }
 }
+
+export const deleting=(index)=> dispatch => {
+    dispatch( {
+        type: 'deleting',
+        index
+    })
+}
